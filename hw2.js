@@ -2,7 +2,7 @@
 
 const myName = "Dmytro";
 
-console.log("My name is " + myName);
+console.log(`My name is ${myName}`);
 
 // Number
 
