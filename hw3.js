@@ -3,7 +3,7 @@
 // and similarly print 'Buzz' for multiples of 5 and lastly print 'FizzBuzz' for multiples of three and five.
 
 function fizzBuzzFunction(num) {
-  for (let i = num; i > 0; i--) {
+  for (let i = 1; i < num + 1; i++) {
     if (i % 15 === 0) {
       console.log("FizzBuzz");
     } else if (i % 3 === 0) {
