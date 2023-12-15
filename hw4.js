@@ -40,3 +40,17 @@ console.log(alphabetMap);
 const concatenatedKeys = [...alphabetMap.keys()].join("");
 
 console.log(concatenatedKeys);
+
+// рішення задачі з leetcode
+
+const searchInsert = function(nums, target) {
+  let left = 0; 
+  let right = nums.length;
+
+  while (left < right) {
+    const mid = Math.floor((left + right) / 2);
+    nums[mid] < target ? left = mid + 1 : right = mid;
+  }
+
+  return left;
+};
