@@ -1,8 +1,8 @@
 // створити 3 обʼєкти через {}
 
 const dmytro = { sex: "male" };
-const anastasiia = { key2: "female" };
-const kostyantyn = { key3: "male" };
+const anastasiia = { sex: "female" };
+const kostyantyn = { sex: "male" };
 
 // створити 3 обʼєкти через Object()
 
